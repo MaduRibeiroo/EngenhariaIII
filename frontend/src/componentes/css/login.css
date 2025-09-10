@@ -1,0 +1,66 @@
+.formularioL{
+    
+    background-color: aliceblue;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    width: 70%;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+}
+.botaoSenha{
+    border-color: transparent;
+    text-decoration: underline;
+    background-color: transparent;
+    color: rgb(72, 72, 255);
+}
+
+.botaoSenha:hover{
+    color: blue;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.divLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texto {
+    width: 28%;
+    text-align: left;
+    margin-left: 62%;
+
+}
+
+.imagemLogin{
+    background-color: #dc4c6c;
+    left: 0%;
+    top: 0%;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+ 
+}
+
+@keyframes fadeSlide {
+  0% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+}
+
+.alert-animado {
+  animation: fadeSlide 5s ease-in-out forwards;
+}

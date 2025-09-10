@@ -1,0 +1,87 @@
+.botaoPesquisa {
+    width: 400px;
+    background-color: #d94062;
+    border-color: #81233b;
+    margin: 5px;
+    width: 150px;
+}
+
+.divInput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.formInput {
+    width: 400px;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.formEvento {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    max-width: 900px;
+    padding: 20px 40px; /* mais padding horizontal para espaçamento */
+}
+
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.topot {
+    padding-top: 100px;
+}
+
+.cadastroTurma {
+    background-color: rgba(255, 255, 255, 0.9);
+    max-width: 80%;
+    width: 100%;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    padding-bottom: 50px;
+    min-height: 100vh;
+    
+}
+
+
+
+.inputTurma {
+    max-width: 1000px;
+    padding: 0.875rem;
+    font-size: 1rem;
+    border: 1.5px solid #000;
+    border-radius: 0.5rem;
+    box-shadow: 2.5px 3px 0 #000;
+    outline: none;
+    transition: ease 0.25s;
+
+}
+
+
+.TituloT {
+    margin: 2%;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
